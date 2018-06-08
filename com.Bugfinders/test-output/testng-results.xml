@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="77048" started-at="2018-06-07T18:31:49Z" finished-at="2018-06-07T18:33:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="77048" started-at="2018-06-07T18:31:49Z" finished-at="2018-06-07T18:33:06Z">
+      <class name="com.Bugfinders.Tests.BugfindersAssignment">
+        <test-method status="PASS" signature="ReportInit()[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="ReportInit" is-config="true" duration-ms="192" started-at="2018-06-08T00:01:49Z" finished-at="2018-06-08T00:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportInit -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="setUp" is-config="true" duration-ms="11640" started-at="2018-06-08T00:01:50Z" finished-at="2018-06-08T00:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SubmitPricingRequest(java.util.Map)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="SubmitPricingRequest" duration-ms="5296" started-at="2018-06-08T00:02:01Z" data-provider="TC1" finished-at="2018-06-08T00:02:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC1, MegaMenu=Pricing, FirstName=TestFirstName, LastName=TestLastName, CompanyName=TestCompany, CompanyEmail=devendra.deogharkar@etisalat.com, PhoneNumber=9750425506, JobTitle=QA_Automation, DescribeYourself=IT, Service=Functional Testing, ConfirmationMessage=THANK YOU}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitPricingRequest -->
+        <test-method status="PASS" signature="TestFailedStatus(org.testng.ITestResult)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="TestFailedStatus" is-config="true" duration-ms="2" started-at="2018-06-08T00:02:07Z" finished-at="2018-06-08T00:02:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: SubmitPricingRequest STATUS:SUCCESS METHOD:BugfindersAssignment.SubmitPricingRequest(java.util.Map)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFailedStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="tearDown" is-config="true" duration-ms="719" started-at="2018-06-08T00:02:07Z" finished-at="2018-06-08T00:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="setUp" is-config="true" duration-ms="10019" started-at="2018-06-08T00:02:07Z" finished-at="2018-06-08T00:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DownloadCaseStudy(java.util.Map)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="DownloadCaseStudy" duration-ms="7396" started-at="2018-06-08T00:02:17Z" data-provider="TC2" finished-at="2018-06-08T00:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC2, MegaMenu=Success, CaseStudy=Audi, FirstName=TestFirstName, LastName=TestLastName, CompanyEmail=devendra.deogharkar@etisalat.com, PhoneNumber=9750425506, DescribeYourself=IT, Service=Functional Testing, ConfirmationMessage=PageTitle}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadCaseStudy -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="tearDown" is-config="true" duration-ms="742" started-at="2018-06-08T00:02:25Z" finished-at="2018-06-08T00:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="TestFailedStatus(org.testng.ITestResult)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="TestFailedStatus" is-config="true" duration-ms="0" started-at="2018-06-08T00:02:25Z" finished-at="2018-06-08T00:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: DownloadCaseStudy STATUS:SUCCESS METHOD:BugfindersAssignment.DownloadCaseStudy(java.util.Map)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFailedStatus -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="setUp" is-config="true" duration-ms="14525" started-at="2018-06-08T00:02:26Z" finished-at="2018-06-08T00:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DownloadWebChecklist(java.util.Map)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="DownloadWebChecklist" duration-ms="6786" started-at="2018-06-08T00:02:40Z" data-provider="TC3" finished-at="2018-06-08T00:02:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC3, Carousel=GET YOUR ULTIMATE WEB TESTING CHECKLIST HERE, FirstName=TestFirstName, LastName=TestLastName, CompanyEmail=devendra.deogharkar@etisalat.com, PhoneNumber=9750425506, DescribeYourself=IT, Service=Functional Testing}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadWebChecklist -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="tearDown" is-config="true" duration-ms="725" started-at="2018-06-08T00:02:47Z" finished-at="2018-06-08T00:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="TestFailedStatus(org.testng.ITestResult)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="TestFailedStatus" is-config="true" duration-ms="0" started-at="2018-06-08T00:02:47Z" finished-at="2018-06-08T00:02:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: DownloadWebChecklist STATUS:SUCCESS METHOD:BugfindersAssignment.DownloadWebChecklist(java.util.Map)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFailedStatus -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="setUp" is-config="true" duration-ms="10412" started-at="2018-06-08T00:02:48Z" finished-at="2018-06-08T00:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DownloadWhitePaper(java.util.Map)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="DownloadWhitePaper" duration-ms="6983" started-at="2018-06-08T00:02:58Z" data-provider="TC4" finished-at="2018-06-08T00:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC4, MegaMenu=Resources, WhitePaper=The Essential Guide To Managing Testing Costs, FirstName=TestFirstName, LastName=TestLastName, CompanyEmail=devendra.deogharkar@etisalat.com, PhoneNumber=9750425506, DescribeYourself=IT, Service=Functional Testing}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadWhitePaper -->
+        <test-method status="PASS" signature="TestFailedStatus(org.testng.ITestResult)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="TestFailedStatus" is-config="true" duration-ms="0" started-at="2018-06-08T00:03:05Z" finished-at="2018-06-08T00:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: DownloadWhitePaper STATUS:SUCCESS METHOD:BugfindersAssignment.DownloadWhitePaper(java.util.Map)[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFailedStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="tearDown" is-config="true" duration-ms="731" started-at="2018-06-08T00:03:05Z" finished-at="2018-06-08T00:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Reportteardown()[pri:0, instance:com.Bugfinders.Tests.BugfindersAssignment@8bd1b6a]" name="Reportteardown" is-config="true" duration-ms="259" started-at="2018-06-08T00:03:06Z" finished-at="2018-06-08T00:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportteardown -->
+      </class> <!-- com.Bugfinders.Tests.BugfindersAssignment -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
